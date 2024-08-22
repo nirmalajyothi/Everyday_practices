@@ -1,0 +1,12 @@
+.card {
+    height: fit-content;
+    width: fit-content ;
+    border:5px black ;
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+.card:hover{
+    background-color: blue;
+    
+}
