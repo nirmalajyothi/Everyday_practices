@@ -1,0 +1,74 @@
+h1{
+    border: 10px black solid;
+    padding:10px;
+    margin:10px;
+   
+
+}
+.a {
+   
+   visibility: visible;
+}
+.b{
+    visibility:visible;
+}
+.c{
+    visibility:visible;
+ }
+ .d{
+    visibility:visible;
+ }
+ 
+
+
+
+@media (min-width:500px) and (max-width:600px){
+     h1, .a{
+       
+        color: yellow;
+        background-color: brown;
+      
+        visibility: hidden;
+    
+       
+
+    }
+   
+
+}
+@media (min-width:601px) and (max-width:700px){
+     h1 , .b{
+       
+        color: yellow;
+        background-color: brown;
+      
+        visibility:hidden;
+      
+
+    }
+
+}
+@media (min-width:701px) and (max-width:800px){
+     h1 ,.c{
+       
+        color: yellow;
+        background-color: brown;
+       
+        visibility:hidden;
+      
+
+    }
+
+}
+@media (min-width:801px) and (max-width:900px){
+    h1 ,.d{
+      
+       color: yellow;
+       background-color: brown;
+      
+       visibility:hidden;
+     
+
+   }
+
+}
